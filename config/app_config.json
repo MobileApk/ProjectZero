@@ -1,8 +1,8 @@
 {
-    "dev_client_id" : "this is dev client id",
-    "dev_client_secret" : "this is dev client secret",
-    "prod_client_id" : "this is prod client id",
-    "prod_client_secret" :  "this is prod client secret "
-
-
+    "dev_client_id": "this is dev client id",
+    "dev_client_secret": "this is dev client secret",
+    "dev_base_url" : "https//dev.com",
+    "prod_client_id": "this is prod client id",
+    "prod_client_secret": "this is prod client secret",
+    "prod_base_url" : "https//prod.com"
 }
