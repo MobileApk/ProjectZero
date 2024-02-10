@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:project_zero/main_common.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class ProjectZero extends StatelessWidget {
+  const ProjectZero({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
