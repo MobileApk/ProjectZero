@@ -1,8 +1,9 @@
 {
     "dev_client_id": "this is dev client id",
     "dev_client_secret": "this is dev client secret",
-    "dev_base_url" : "https//dev.com",
+    "dev_base_url": "http://agrifarmsdev.ap-south-1.elasticbeanstalk.com/api/v1",
     "prod_client_id": "this is prod client id",
     "prod_client_secret": "this is prod client secret",
-    "prod_base_url" : "https//prod.com"
+    "prod_base_url": "http://agrifarmsdev.ap-south-1.elasticbeanstalk.com/api/v1",
+    "pixabay_api_key": "42305955-918beb6ea87649290f9a973d1"
 }

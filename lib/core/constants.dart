@@ -9,5 +9,5 @@ class Constants {
   static const String errorTypeTimeout = "Time Out";
 
   static const String authorization = "Authorization";
-  static const String baseUrl = "this is my const base url";
+  // static const String baseUrl = "http://agrifarmsdev.ap-south-1.elasticbeanstalk.com/api/v1";
 }

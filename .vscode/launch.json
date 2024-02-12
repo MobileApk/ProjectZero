@@ -6,6 +6,7 @@
     "configurations": [
         {
             "name": "project_zero",
+            "program": "lib/flavor/main_dev.dart",
             "request": "launch",
             "type": "dart"
         },

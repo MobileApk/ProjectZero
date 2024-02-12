@@ -5,6 +5,7 @@ import 'package:project_zero/core/extensions/custom_ext.dart';
 import 'package:project_zero/core/extensions/dio_error.dart';
 import 'package:project_zero/features/data/datasources/local_datasource/local_datasource.dart';
 import 'package:project_zero/features/data/models/auth/login_model.dart';
+import 'package:project_zero/main_common.dart';
 import 'package:retrofit/retrofit.dart';
 import 'package:dio/dio.dart';
 
@@ -13,7 +14,7 @@ part 'auth_client.g.dart';
 /// flutter pub run build_runner build --delete-conflicting-outputs
 /// Use above command to generate the code
 
-@RestApi(baseUrl: Constants.baseUrl)
+@RestApi()
 abstract class AuthClient {
   factory AuthClient(
     final Dio dio,
@@ -37,7 +38,7 @@ abstract class AuthClient {
 
     return _AuthClient(
       dio,
-      baseUrl: Constants.baseUrl,
+      baseUrl: baseUrl,
     );
   }
 

@@ -11,7 +11,7 @@ import 'injection_container.dart' as di;
 
 String? clientId;
 String? clientSecret;
-String? baseUrl;
+String baseUrl = "";
 
 Future<void> mainCommon(String env) async {
   /// Initialize Flutter Binding

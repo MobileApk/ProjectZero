@@ -33,4 +33,8 @@ abstract class ConfigReader {
   static String getProdBaseUrl() {
     return _config?['prod_base_url'];
   }
+
+  static String getPixabayApiKey() {
+    return _config?['pixabay_api_key'];
+  }
 }

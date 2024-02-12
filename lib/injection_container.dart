@@ -3,7 +3,6 @@ import 'dart:developer';
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 import 'package:project_zero/core/config/my_shared_pref.dart';
-import 'package:project_zero/core/constants.dart';
 import 'package:project_zero/core/network_info.dart';
 import 'package:project_zero/features/data/datasources/local_datasource/local_datasource.dart';
 import 'package:project_zero/features/data/datasources/remote_datasource/auth_remote_datasource.dart';
@@ -11,6 +10,7 @@ import 'package:project_zero/features/data/repositories/auth_repository_impl.dar
 import 'package:project_zero/features/domain/repositories/auth_repository.dart';
 import 'package:project_zero/features/domain/usecases/auth/login_usecase.dart';
 import 'package:project_zero/features/presentation/auth/cubit/login_cubit.dart';
+import 'package:project_zero/main_common.dart';
 
 /// Using GetIt for dependency Injection
 
@@ -41,7 +41,7 @@ Future<void> init() async {
   /// initializing dio
   final dio = Dio(
     BaseOptions(
-      baseUrl: Constants.baseUrl,
+      baseUrl: baseUrl,
       connectTimeout: const Duration(milliseconds: 500000),
       receiveTimeout: const Duration(milliseconds: 500000),
       sendTimeout: const Duration(milliseconds: 500000),

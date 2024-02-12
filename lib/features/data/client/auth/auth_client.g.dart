@@ -12,9 +12,7 @@ class _AuthClient implements AuthClient {
   _AuthClient(
     this._dio, {
     this.baseUrl,
-  }) {
-    baseUrl ??= 'this is my const base url';
-  }
+  });
 
   final Dio _dio;
 
